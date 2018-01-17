@@ -1,0 +1,43 @@
+// 字体
+$font-size: px2rem(14);                /****** 14px ******/
+$small-font: px2rem(12);           /****** 12px ******/
+
+
+// 颜色
+$profile-head-color:#6699FF;             /*个人中心头部背景颜色*/
+$number-color:#972E2E;                     /*个人中心数字颜色*/ 
+$gray-color:#D8D8DA;
+$status-color:#FFCF29;                  /*状态颜色*/
+$light-gray-color:#9A9A9A;
+$deep-gray-color:#737373;
+
+// 边框
+$border: px2rem(1) solid #D9D9D9;       /*边框*/
+
+// 填充距离
+$padding-10: px2rem(10);
+$padding-15: px2rem(15);
+$padding-20: px2rem(20);
+$padding-30:px2rem(30);
+$padding-5: px2rem(5);
+
+// 高度
+$head-title:px2rem(40);
+
+
+.iconfont{
+    margin-right: $padding-5;
+    font-size: px2rem(20);
+}
+
+.icon-jiantouyou{
+    color: #9E9E9E;
+}
+
+.num{
+    color: $number-color;
+}
+
+.status-color{
+    color: $status-color;
+}

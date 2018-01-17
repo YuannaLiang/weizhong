@@ -1,0 +1,97 @@
+.sign-on-page{
+    width: 100%;
+    height: 100%;
+    background: white;
+    .header{
+        height: px2rem(70);
+        background: #CBEEB4;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-between;
+        padding:0 px2rem(20);
+        .time{
+            display: -webkit-flex;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .day{
+                font-size: px2rem(26);
+                margin-right: px2rem(20);
+            }
+            .month{
+                height: 100%;
+                display: -webkit-flex;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                padding: px2rem(5) 0;
+                p:last-child{
+                    color: $deep-gray-color;
+                }
+            }
+        }
+        .class-name{
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .content{
+        height: calc( 100% - 4.98667rem );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .click-sign{
+            .sign-btn{
+                background: #A3EE75;
+                border:px2rem(1) solid #A3EE75;
+                width: px2rem(150);
+                height: px2rem(40);
+                border-radius: px2rem(6);
+                color: white;
+                font-size: px2rem(25);
+                box-shadow:0 px2rem(3) 0 #60A436;
+            }
+        }
+        .content-btn{
+            text-align: center;
+            .pass{
+                border:px2rem(3) solid #B6EC94;
+            }
+            .fail{
+                border:px2rem(3) solid #FE8A8D;           
+            }
+            .btn{
+                margin: px2rem(10) 0;
+                width: px2rem(150);
+                height: px2rem(150);
+                border-radius: 100%;
+                position: relative;
+                .iconfont{
+                    font-size: px2rem(100);
+                    border-radius: 50%;
+                    color: white;
+                    padding:px2rem(10);
+                    position: absolute;
+                    margin: 0 auto;
+                    left: px2rem(3);
+                    top: px2rem(3);
+                    right: px2rem(3);
+                    bottom: px2rem(3);
+                    text-align: center;
+                    line-height: px2rem(120);
+                }
+                .icon-duihao2{
+                    background: #B6EC94;
+                }
+                .icon-cuohao1{
+                    background: #FE8A8D;
+                }
+            }
+            .sign-success{
+                margin-bottom: px2rem(20);
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,14 @@
+.title-bar{
+    background: #6A7D8F;
+    height: px2rem(50);
+    line-height: px2rem(50);
+    color: white !important;
+    font-size: px2rem(20);
+    text-align: center;
+    .icon-fanhui{
+        position: absolute;
+        left: px2rem(10);
+        font-size: px2rem(30) !important;
+    }
+
+}

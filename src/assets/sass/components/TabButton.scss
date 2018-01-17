@@ -1,0 +1,23 @@
+.bottom-button{
+    position: absolute;
+    bottom: 0;
+    background: #E4E4E4;
+    height: px2rem(40);
+    width: 100%;
+    line-height: px2rem(40);
+    text-align: center;
+    border-top: px2rem(1) solid #CCCCCC;
+    .icon-jianpan{
+        background: white;
+        width: px2rem(43) !important;
+        margin: 0;
+    }
+    span{
+        display: inline-block;
+        width: px2rem(106);
+        border-right:px2rem(1) solid #848484;
+        &:last-child{
+            border-right: none;
+        }
+    }
+}

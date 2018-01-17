@@ -1,0 +1,76 @@
+.profile-page{
+    .profile-head{
+        background: -webkit-linear-gradient(right top, #214393 , #3DC2CB); 
+        background: -o-linear-gradient(bottom left, #214393, #3DC2CB); 
+        background: -moz-linear-gradient(bottom left, #214393, #3DC2CB); 
+        background: linear-gradient(to bottom left, #214393 , #3DC2CB); 
+        height: px2rem(90);
+        color: white;
+        display: flex;
+        display: -webkit-flex;
+        align-items: center;
+        .head-left{
+            float: left;
+            margin:0 px2rem(30); 
+            .img{
+                background: white;
+                display: inline-block;
+                width: px2rem(60);
+                height: px2rem(60);
+                border-radius: 100%;
+                line-height: px2rem(60);
+                text-align: center;
+            }
+            
+        }
+        .head-right{
+            display: flex;
+            display: -webkit-flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 100%;
+            padding: px2rem(10) 0;
+            width: 100%;            
+            .name-bottom{
+                font-size: px2rem(12);
+                display: -webkit-flex;
+                display: flex;
+                span{
+                    flex:1;
+                }
+            }
+        }
+    }
+    .profile-main{
+        .main-list{
+            border-bottom:$border;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+            background: white;
+            padding: $padding-10 0 0 $padding-20;
+            .main-list-left{
+                .list-top{
+                    padding-bottom: px2rem(5);
+                    .list-title{
+                    }
+                }
+                .list-bottom{
+                    font-size: px2rem(12);
+                    .time{
+                        padding-right: $padding-30;
+                    }
+                    .credit{
+                        
+                    }
+                }
+                p:last-child{
+                }
+            }
+            .main-list-icon{
+                line-height: px2rem(50);
+                color: #C6C6CB !important;
+            }
+        }
+    }
+}

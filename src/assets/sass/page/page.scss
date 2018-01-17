@@ -1,0 +1,16 @@
+// 主页
+@import "./index.scss";
+
+// 个人中心
+@import "./profile/index.scss";
+@import "./profile/components/exam.scss";
+@import "./profile/components/train.scss";
+@import "./profile/components/course.scss";
+@import "./profile/components/courseDetail.scss";
+@import "./profile/components/classSchedule.scss";
+
+
+// 班级
+@import "./class/index.scss";
+@import "./class/components/trainClassDetail.scss";
+@import "./class/components/signOn.scss";

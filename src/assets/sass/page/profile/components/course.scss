@@ -1,0 +1,48 @@
+.profile-course-page{
+    width: 100%;
+    height: 100%;
+    background: white;
+    padding: $padding-10;
+    padding-right: 0;
+    .num{
+        color: $number-color;
+    }
+    .main-list{
+        border-bottom:$border;
+        margin-bottom: px2rem(10);
+        .main-list-left{
+            p{
+                padding-bottom: px2rem(10);
+            }
+            p:not(:first-child){
+                font-size: px2rem(12);
+                color: $light-gray-color;
+            }
+            .list-top{
+                display: -webkit-flex;
+                display: flex;
+                justify-content: space-between;
+                .status{
+                    font-size: px2rem(12);
+                    color: $deep-gray-color;
+                    padding-right: px2rem(10);
+                }
+            }
+            .list-bottom{
+                span{
+                    padding-right:px2rem(40);
+                }
+                .status{
+                    .status-info{
+                        color: $status-color;
+                    }
+                }
+                
+            }
+            
+        }
+        .main-list-icon{
+            line-height: px2rem(50);
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.classSchedule-page{
+    .list{
+        background: white;
+        padding-left:px2rem(10);
+        .list-item{
+            border-bottom: $border;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+            .content{
+                .schedule-title{
+                    color: #242424;
+                }
+                .credit{
+                    span{
+                        margin-right: px2rem(40);
+                    }
+                }
+                p{
+                    margin:px2rem(10) 0;
+                }
+                p:not(:first-child){
+                    font-size: px2rem(12);
+                    color: $deep-gray-color;
+                }
+            }
+           .right{
+               display: -webkit-flex;
+               display: flex;
+               align-items: center;
+                .icon-qianjin{
+                    color: #C8C8CC;
+                    font-size: px2rem(12);
+                }
+            }
+        }
+    }
+}

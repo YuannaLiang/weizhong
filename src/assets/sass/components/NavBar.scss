@@ -1,0 +1,11 @@
+.navbar-page {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: px2rem(1) solid blue;
+    .navbar-tab{
+        line-height: px2rem(50);
+    }
+    .active{
+        color: blue;
+    }
+}
